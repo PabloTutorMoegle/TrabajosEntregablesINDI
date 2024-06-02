@@ -5,4 +5,4 @@ Actividades de la asignatura de Interaccion y Diseño de Interficies (INDI)
 | --- | --- | --- |
 | `01` | Noria | [Click](https://github.com/PabloTutorMoegle/TrabajosEntregablesINDI/tree/main/Activitat1) |
 | `02` | Luke SkyWalker | [Click](https://github.com/PabloTutorMoegle/TrabajosEntregablesINDI/tree/main/Actividad2) |
-| `03` | Playa | [Click]() |
+| `03` | Playa | [Click](https://github.com/PabloTutorMoegle/TrabajosEntregablesINDI/tree/main/Actividad3) |
