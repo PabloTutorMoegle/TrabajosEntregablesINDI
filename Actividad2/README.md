@@ -8,13 +8,13 @@ Para ejecutar la aplicacion y poder ver el resultado.
 
 3_ Abre un terminal y accede a la carpeta y ejecuta estos comandos en el orden en que estan escritos:
 
-  3.1_ cd EsqueletEx2/esquelet/
+    3.1_ cd EsqueletEx2/esquelet/
   
-  3.2_ qmake
+    3.2_ qmake
   
-  3.3_ make -j4
+    3.3_ make -j4
 
-  3.4_ ./Exercici-2 
+    3.4_ ./Exercici-2 
 
 4_ Aqui tienes el resultado: 
 
