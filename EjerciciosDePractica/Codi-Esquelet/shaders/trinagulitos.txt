@@ -1,0 +1,58 @@
+Ejercicio 1:
+	FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+	if (gl_FragCoord.x < 354. && gl_FragCoord.y < 354.)
+	{  //amrillo
+		FragColor = vec4(1.0, 1.0, 0.0, 1.0);
+	}
+	if (gl_FragCoord.x > 354. && gl_FragCoord.y > 354.)
+	{  //azul
+		FragColor = vec4(0.0, 0.0, 1.0, 1.0);
+	}
+	if (gl_FragCoord.x < 354. && gl_FragCoord.y > 354.)
+	{  //rojo
+		FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+	}
+	if (gl_FragCoord.x > 354. && gl_FragCoord.y < 354.)
+	{  //verde
+		FragColor = vec4(0.0, 1.0, 0.0, 1.0);
+	}
+	
+Ejercicio 2:
+	FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+	if (int(gl_FragCoord.y) % 10 < 5)
+	{
+		discard;
+	}
+	else
+	{
+		if (gl_FragCoord.x < 354. && gl_FragCoord.y < 354.)
+		{  //amrillo
+			FragColor = vec4(1.0, 1.0, 0.0, 1.0);
+		}
+		if (gl_FragCoord.x > 354. && gl_FragCoord.y > 354.)
+		{  //azul
+			FragColor = vec4(0.0, 0.0, 1.0, 1.0);
+		}
+		if (gl_FragCoord.x < 354. && gl_FragCoord.y > 354.)
+		{  //rojo
+			FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+		}
+		if (gl_FragCoord.x > 354. && gl_FragCoord.y < 354.)
+		{  //verde
+			FragColor = vec4(0.0, 1.0, 0.0, 1.0);
+		}
+	}
+	
+Ejercico 3:
+
+
+
+
+Ejercicio Circulo:
+	float radius = 100.0;
+	vec2 center = vec2(100.0, 100.0); 
+	float dist = sqrt( (center.x - gl_FragCoord.x) * (center.x - gl_FragCoord.x) + (center.y - gl_FragCoord.y) * (center.y - gl_FragCoord.y) );
+	if (dist <= radius)
+	{
+		discard;
+	}
